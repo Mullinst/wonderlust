@@ -1,0 +1,30 @@
+/* Skip link CSS by Troy Mullins */
+
+.skip{
+    position: absolute;
+    top: auto;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip:focus{
+    position: static;
+    display: block;
+    padding: 1rem;
+    width: auto;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1B263B;
+    outline: 5px solid #00BFD8;
+    background: #FAFAFA;
+    text-decoration: 4px solid underline #0077B6;
+    margin-bottom: 5px;
+}
+
+.skip:hover{
+    text-decoration-color: #F76C5E;
+}
